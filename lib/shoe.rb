@@ -5,7 +5,7 @@ class Book
   GENRES = []
   
   def initialize(genre)
-    GENRES << self
+    GENRES << self.genre
   end
   
 end
